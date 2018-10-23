@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 14 for Windows Desktop
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mitsubishi_Robotic_Arm_Control", "Mitsubishi_Robotic_Arm_Control\Mitsubishi_Robotic_Arm_Control.vcxproj", "{89F3CC72-57EA-4A91-8628-B0C7EE1A516C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_control", "Test_control\Test_control.vcxproj", "{B26C72AD-401F-48B6-8136-BE61AD8987E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Motion_Control", "Motion_Control\Motion_Control.csproj", "{113D2F6A-11E0-4AD1-8603-A75EF41A5E0E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{89F3CC72-57EA-4A91-8628-B0C7EE1A516C} = {89F3CC72-57EA-4A91-8628-B0C7EE1A516C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89F3CC72-57EA-4A91-8628-B0C7EE1A516C}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{89F3CC72-57EA-4A91-8628-B0C7EE1A516C}.Debug|x64.ActiveCfg = Debug|x64
+		{89F3CC72-57EA-4A91-8628-B0C7EE1A516C}.Debug|x64.Build.0 = Debug|x64
+		{89F3CC72-57EA-4A91-8628-B0C7EE1A516C}.Debug|x86.ActiveCfg = Debug|Win32
+		{89F3CC72-57EA-4A91-8628-B0C7EE1A516C}.Debug|x86.Build.0 = Debug|Win32
+		{89F3CC72-57EA-4A91-8628-B0C7EE1A516C}.Release|Any CPU.ActiveCfg = Release|Win32
+		{89F3CC72-57EA-4A91-8628-B0C7EE1A516C}.Release|x64.ActiveCfg = Release|x64
+		{89F3CC72-57EA-4A91-8628-B0C7EE1A516C}.Release|x64.Build.0 = Release|x64
+		{89F3CC72-57EA-4A91-8628-B0C7EE1A516C}.Release|x86.ActiveCfg = Release|Win32
+		{89F3CC72-57EA-4A91-8628-B0C7EE1A516C}.Release|x86.Build.0 = Release|Win32
+		{B26C72AD-401F-48B6-8136-BE61AD8987E5}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{B26C72AD-401F-48B6-8136-BE61AD8987E5}.Debug|x64.ActiveCfg = Debug|x64
+		{B26C72AD-401F-48B6-8136-BE61AD8987E5}.Debug|x64.Build.0 = Debug|x64
+		{B26C72AD-401F-48B6-8136-BE61AD8987E5}.Debug|x86.ActiveCfg = Debug|Win32
+		{B26C72AD-401F-48B6-8136-BE61AD8987E5}.Debug|x86.Build.0 = Debug|Win32
+		{B26C72AD-401F-48B6-8136-BE61AD8987E5}.Release|Any CPU.ActiveCfg = Release|Win32
+		{B26C72AD-401F-48B6-8136-BE61AD8987E5}.Release|x64.ActiveCfg = Release|x64
+		{B26C72AD-401F-48B6-8136-BE61AD8987E5}.Release|x64.Build.0 = Release|x64
+		{B26C72AD-401F-48B6-8136-BE61AD8987E5}.Release|x86.ActiveCfg = Release|Win32
+		{B26C72AD-401F-48B6-8136-BE61AD8987E5}.Release|x86.Build.0 = Release|Win32
+		{113D2F6A-11E0-4AD1-8603-A75EF41A5E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113D2F6A-11E0-4AD1-8603-A75EF41A5E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113D2F6A-11E0-4AD1-8603-A75EF41A5E0E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{113D2F6A-11E0-4AD1-8603-A75EF41A5E0E}.Debug|x64.Build.0 = Debug|Any CPU
+		{113D2F6A-11E0-4AD1-8603-A75EF41A5E0E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{113D2F6A-11E0-4AD1-8603-A75EF41A5E0E}.Debug|x86.Build.0 = Debug|Any CPU
+		{113D2F6A-11E0-4AD1-8603-A75EF41A5E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113D2F6A-11E0-4AD1-8603-A75EF41A5E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{113D2F6A-11E0-4AD1-8603-A75EF41A5E0E}.Release|x64.ActiveCfg = Release|Any CPU
+		{113D2F6A-11E0-4AD1-8603-A75EF41A5E0E}.Release|x64.Build.0 = Release|Any CPU
+		{113D2F6A-11E0-4AD1-8603-A75EF41A5E0E}.Release|x86.ActiveCfg = Release|Any CPU
+		{113D2F6A-11E0-4AD1-8603-A75EF41A5E0E}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
